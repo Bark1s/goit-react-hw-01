@@ -1,0 +1,30 @@
+.table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 600px;
+}
+
+th {
+  background-color: #282828;
+  color: white;
+  padding: 6px;
+}
+
+tr,
+td {
+  padding: 6px;
+  width: 200px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+.border {
+  border: black solid 1px;
+}
+
+.type {
+  text-transform: capitalize;
+  border: black solid 1px;
+}

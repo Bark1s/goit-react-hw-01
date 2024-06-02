@@ -1,0 +1,22 @@
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.wrapper {
+  border: black solid 2px;
+  border-radius: 5px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.name {
+  font-size: x-large;
+}
